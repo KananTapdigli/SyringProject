@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Animate css-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <!--bootstrap css-->
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <!--font Awesome css-->
+    <link rel="stylesheet" href="assets/font-awesome/css/all.min.css">
+    <!--Google Fonts css-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Slider Slick css -->
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css">
+    <!--main css-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>Post Standard</title>
+</head>
+
+<body>
+
+    <!-- header starts -->
+    <header>
+        <div class="header-bottom no-select">
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="logo">
+                            <a href="#"><img src="assets/images/logo.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <nav class="col-10 d-flex justify-content-end">
+                        <ul class="navigation  d-none d-xl-flex">
+                            <li class="home">
+                                <span class="title">Home</span>
+                                <div class="sub-menu">
+                                    <div class="sub-menu-wrapper">
+                                        <a href="index.html">Home</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="pages">
+                                <span class="title">Pages</span>
+                                <div class="sub-menu">
+                                    <div class="sub-menu-wrapper">
+                                        <a href="our-clinic.html">Our Clinic</a>
+                                        <a href="contact-us.html">Contact us</a>
+                                        <a href="faq.html">FAQ</a>
+                                        <a href="book-appointment.html">Book an Appointment</a>
+                                        <a href="pricings.html">Pricings</a>
+                                        <a href="schedule.html">Schedule</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="doctor">
+                                <span class="title">Doctors</span>
+                                <div class="sub-menu">
+                                    <div class="sub-menu-wrapper">
+                                        <a href="find-doctor.html">Find A Doctor</a>
+                                        <a href="doctor-single.html">Doctor Single</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="departments">
+                                <span class="title">Departments</span>
+                                <div class="sub-menu">
+                                    <div class="sub-menu-wrapper">
+                                        <a href="medical-department.html">Medical Department</a>
+                                        <a href="dental-clinic.html">Dental Clinic</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="blog">
+                                <span class="title active-nav">Blog</span>
+                                <div class="sub-menu">
+                                    <div class="sub-menu-wrapper">
+                                        <a href="post-standard.html" class="active-nav">Single Post Standard</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="shop">
+                                <span class="title">Shop</span>
+                                <div class="sub-menu">
+                                    <div class="sub-menu-wrapper">
+                                        <a href="sidebar-left.html">Sidebar left</a>
+                                        <a href="cart.html">Cart</a>
+                                        <a href="checkout.html">Checkout</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="element">
+                                <span class="title">Element</span>
+                                <div class="sub-menu">
+                                    <div class="sub-menu-wrapper">
+                                        <a>Coming Soon</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="search-basket-menu d-flex align-items-center">
+                            <div class="search d-none d-md-block"><img src="assets/images/search-icon.png" alt=""></div>
+                            <div class="basket">
+                                <img src="assets/images/shop-basket.png" alt="">
+                                <span class="cart-items-count text-center">0</span>
+                            </div>
+                            <div class="burger-menu d-block d-xl-none"><i class="fas fa-bars"></i></div>
+                        </div>
+                    </nav>
+                    <div class="mini-cart">
+                        <span class="no-cart-item">No Products In The Basket</span>
+                        <ul class="cart-items">
+
+                        </ul>
+                        <div class="total-price  justify-content-between">
+                            <div class="subtotal">Subtotal:</div>
+                            <div class="total-price-self"><span>$</span><span class="total-price-number">0</span></div>
+                        </div>
+                        <div class="text-center"><a href="cart.html" class="button">View Basket</a></div>
+                        <div class="text-center"><a href="checkout.html" class="button">Checkout</a></div>
+                    </div>
+                    <nav class="mobile-nav d-xl-none">
+                        <ul id="accordion">
+                            <li>
+                                <span>Home</span>
+                                <div class="mn-sub-menu">
+                                    <a href="index.html">Home</a>
+                                </div>
+                            </li>
+                            <li>
+                                <span>Pages</span>
+                                <div class="mn-sub-menu">
+                                    <a href="our-clinic.html">Our Clinic</a>
+                                    <a href="contact-us.html">Contact us</a>
+                                    <a href="faq.html">FAQ</a>
+                                    <a href="book-appointment.html">Book an Appointment</a>
+                                    <a href="pricings.html">Pricings</a>
+                                    <a href="schedule.html">Schedule</a>
+                                </div>
+                            </li>
+
+                            <li>
+                                <span>Doctors</span>
+                                <div class="mn-sub-menu">
+                                    <a href="find-doctor.html">Find A Doctor</a>
+                                    <a href="doctor-single.html">Doctor Single</a>
+                                </div>
+                            </li>
+
+                            <li>
+                                <span>Departments</span>
+                                <div class="mn-sub-menu">
+                                    <a href="medical-department.html">Medical Department</a>
+                                    <a href="dental-clinic.html">Dental Clinic</a>
+                                </div>
+                            </li>
+                            <li>
+                                <span class="active-nav">Blog</span>
+                                <div class="mn-sub-menu">
+                                    <a href="post-standard.html" class="active-nav">Single Post Standard</a>
+                                </div>
+                            </li>
+                            <li>
+                                <span>Shop</span>
+                                <div class="mn-sub-menu">
+                                    <a href="sidebar-left.html">Sidebar left</a>
+                                    <a href="cart.html">Cart</a>
+                                    <a href="checkout.html">Checkout</a>
+                                </div>
+                            </li>
+                            <li>
+                                <span>Elements</span>
+                                <div class="mn-sub-menu">
+                                    <a>Coming Soon</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- header ends -->
+
+
+    <main>
+        <!-- standard-main starts -->
+        <section class="standard-main no-select">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="heading text-center heading-standard">
+                            No more counting sheep: Proven behaviors to help you sleep
+                        </div>
+                        <div class="meta text-center">
+                            <a href="">December 24,2018</a>
+                            <a href=""> Syring</a>
+                            <a href="">Uncategorized</a>
+                        </div>
+                        <img src="assets/images/post-standard-1.jpg" alt="" class="ps-img">
+                        <h6>As humans, we spend about one-third of our lives asleep. Though science has taught us about
+                            the
+                            human brain’s exquisite control of our daily sleep and wake patterns, tens of millions of
+                            Americans still don’t get the sleep they need. Nearly 20% of American adults report using a
+                            sleep medication to help them sleep, despite known side effects and information about how
+                            well
+                            they really work. Some people turn to alcohol for relief. And many have tried everything
+                            without
+                            relief.
+                        </h6>
+                        <p>
+                            Whether your problem is experiencing lack of quality sleep, feeling sleepy during the day,
+                            or
+                            not being able to get the seven to nine hours of sleep each night that most people need,
+                            first
+                            ask yourself, “What habits can I change to improve my sleep?”
+                        </p>
+                        <img src="assets/images/post-standard-2.jpg" alt="" class="ps-img">
+                        <p>
+                            Do you have good sleep hygiene? In general, sleep hygiene refers to practicing behaviors
+                            that
+                            promote sleep and stopping behaviors that are bad for sleep:
+                        </p>
+                        <h5>Nighttime tips to help with sleep</h5>
+                        <ul class="ps-ul">
+                            <li>Get up at the same time every day, even on the weekends. A regular wake time helps to
+                                set
+                                your body’s natural clock (circadian rhythm) by making sure you do not oversleep.
+                                Sleeping
+                                in too much can impact your ability to fall and stay asleep the next night, or the night
+                                after that.</li>
+                            <br>
+                            <li>Create a comfortable sleep environment: a place that is cool, dark, and quiet.</li>
+                            <br>
+                            <li>Use your bed for sleep and sex only. Doing other activities in bed will train your brain
+                                into thinking that activities other than sleep are appropriate in bed.</li>
+                            <br>
+                            <li>Avoid or limit caffeine. Caffeine can make you more alert during the day, but many
+                                people
+                                are sensitive to its effects. Even one or two cups in the early part of the day can
+                                disrupt
+                                your sleep at night.</li>
+                        </ul>
+                        <h5>What if I work multiple jobs or do shift work?</h5>
+                        <p>Sometimes there are factors that impact our sleep that we can’t control. If you work shifts,
+                            strategies such as taking naps before evening shifts, and minimizing light exposure when
+                            coming
+                            off evening shifts and planning to sleep, may help.</p>
+                        <div class="standard-subtitle d-flex">
+                            <blockquote>
+                                <i class="fas fa-quote-left"></i>
+                            </blockquote>
+                            <span>
+                                Dr. Bertisch will present “Understanding the Role of Non-Pharmacologic Treatments in
+                                Insomnia” at the Osher Center for Integrative Medicine Grand Rounds at Brigham and
+                                Women’s
+                                Hospital
+                            </span>
+                        </div>
+                        <p>his may be a sign that you have a clinical sleep problem, such as insomnia disorder or sleep
+                            apnea. If you are doing all the right things and practicing good sleep hygiene, and still
+                            have
+                            trouble falling or staying asleep, you may need to see a sleep specialist.
+                        </p>
+                        <div class="tags-share d-flex justify-content-between" data-aos="fade-up"
+                            data-aos-duration="2000">
+                            <div><span class="tags-share-title">TAGS: </span><span class="tags-share-text"> healthcare,
+                                    medical, stress</span></div>
+                            <div><span class="tags-share-title">SHARE:</span><span class="tags-share-text"></span>
+                                <div class="social-media d-inline-block">
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-pinterest-p"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="prev-next" data-aos="fade-up" data-aos-duration="2000">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="prev">
+                                            <div class="row">
+                                                <div class="col-2">
+                                                    <i class="fas fa-arrow-left"></i>
+                                                </div>
+                                                <div class="col-8 col-md-10">
+                                                    <p class="prev-next-title">Prev</p>
+                                                    <h3 class="d-none d-lg-block">No more counting sheep: Proven
+                                                        behaviors to help you sleep</h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 ">
+                                        <div class="next">
+                                            <div class="row">
+                                                <div class="col-8 col-md-10 text-right">
+                                                    <p class="prev-next-title">Next</p>
+                                                    <h3 class="rash d-none d-lg-block">What can cause a rash on the face
+                                                        in a baby?
+                                                    </h3>
+                                                </div>
+                                                <div class="col-2">
+                                                    <i class="fas fa-arrow-right"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="standard-comments" data-aos="fade-up" data-aos-duration="2000">
+                            <div class="heading">
+                                7 Comments
+                            </div>
+                            <div class="standard-comments-item standard-comments-item-1 d-flex">
+                                <div class="user-img-container">
+                                    <img src="assets/images/user.png" alt="" class="user-img d-none d-md-block">
+                                </div>
+                                <div class="user-comment">
+                                    <h5>KEM</h5>
+                                    <p>Sometimes there are factors that impact our sleep that we can’t control. If you
+                                        work
+                                        shifts, strategies such as taking naps before evening shifts, and minimizing
+                                        light
+                                        exposure when coming off evening shifts and planning to sleep, may help.</p>
+                                    <div class="date-reply">
+                                        <span>March 13, 2019 at 2:16 am</span>
+                                        <span class="reply">Reply</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="standard-comments-item standard-comments-item-2 d-flex ">
+                                <div class="user-img-container">
+                                    <img src="assets/images/user.png" alt="" class="user-img d-none d-md-block">
+                                </div>
+                                <div class="user-comment">
+                                    <h5>KEM</h5>
+                                    <p>Create a comfortable sleep environment: a place that is cool, dark, and quiet.
+                                    </p>
+                                    <div class="date-reply">
+                                        <span>March 13, 2019 at 2:16 am</span>
+                                        <span class="reply">Reply</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="standard-comments-item standard-comments-item-3 d-flex">
+                                <div class="user-img-container">
+                                    <img src="assets/images/user.png" alt="" class="user-img d-none d-md-block">
+                                </div>
+                                <div class="user-comment">
+                                    <h5>KEM</h5>
+                                    <p>Use your bed for sleep and sex only. Doing other activities in bed will train
+                                        your
+                                        brain into thinking that activities other than sleep are appropriate in bed</p>
+                                    <div class="date-reply">
+                                        <span>March 13, 2019 at 2:16 am</span>
+                                        <span class="reply">Reply</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="standard-comments-item standard-comments-item-4 d-flex">
+                                <div class="user-img-container">
+                                    <img src="assets/images/user.png" alt="" class="user-img d-none d-md-block">
+                                </div>
+                                <div class="user-comment">
+                                    <h5>KEM</h5>
+                                    <p>Avoid or limit caffeine. Caffeine can make you more alert during the day, but
+                                        many
+                                        people are sensitive to its effects. Even one or two cups in the early part of
+                                        the
+                                        day can disrupt your sleep at night.</p>
+                                    <div class="date-reply">
+                                        <span>March 13, 2019 at 2:16 am</span>
+                                        <span class="reply">Reply</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="standard-comments-item standard-comments-item-5 d-flex">
+                                <div class="user-img-container">
+                                    <img src="assets/images/user.png" alt="" class="user-img d-none d-md-block">
+                                </div>
+                                <div class="user-comment">
+                                    <h5>KEM</h5>
+                                    <p>Do you have good sleep hygiene? In general, sleep hygiene refers to practicing
+                                        behaviors that promote sleep and stopping behaviors that are bad for sleep:</p>
+                                    <div class="date-reply">
+                                        <span>March 13, 2019 at 2:16 am</span>
+                                        <span class="reply">Reply</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="standard-comments-item standard-comments-item-6 d-flex">
+                                <div class="user-img-container">
+                                    <img src="assets/images/user.png" alt="" class="user-img d-none d-md-block">
+                                </div>
+                                <div class="user-comment">
+                                    <h5>KEM</h5>
+                                    <p>What if I work multiple jobs or do shift work?</p>
+                                    <div class="date-reply">
+                                        <span>March 13, 2019 at 2:16 am</span>
+                                        <span class="reply">Reply</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="standard-comments-item standard-comments-item-7 d-flex">
+                                <div class="user-img-container">
+                                    <img src="assets/images/user.png" alt="" class="user-img d-none d-md-block">
+                                </div>
+                                <div class="user-comment">
+                                    <h5>KEM</h5>
+                                    <p>Use your bed for sleep and sex only. Doing other activities in bed will train
+                                        your
+                                        brain into thinking that activities other than sleep are appropriate in bed.</p>
+                                    <div class="date-reply">
+                                        <span>March 13, 2019 at 2:16 am</span>
+                                        <span class="reply">Reply</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="leave-comment">
+                            <h3>Leave A Comment</h3>
+                            <p>Your email address will not be published. Required fields are marked *</p>
+                            <input type="text" placeholder="Your Name*">
+                            <input type="text" placeholder="Your Email*">
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Your Comment*"></textarea>
+                            <div class="button text-center">Leave A Comment</div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 pt-5 pt-lg-0">
+                        <div class="right-sidebar">
+                            <div class="search">
+                                <h4>Search</h4>
+                                <input type="search" name="" id="" placeholder="Search here...">
+                            </div>
+                            <div class="categories">
+                                <h4>Categories</h4>
+                                <ul>
+                                    <li>Baby Health (1) </li>
+                                    <li>Cancer (3) </li>
+                                    <li>Cardiology (2) </li>
+                                    <li>Diagnostic (1) </li>
+                                    <li>Health Care (2) </li>
+                                    <li>Massage (5) </li>
+                                    <li>Medical (1) </li>
+                                    <li>Medical Tips (1) </li>
+                                    <li>MRI scanning (1) </li>
+                                    <li>Neurosurgery (1) </li>
+                                    <li>Pulmonary (5) </li>
+                                    <li>Surgery (1) </li>
+                                    <li>Uncategorized (1) </li>
+                                    <li>Urology (5) </li>
+                                </ul>
+                            </div>
+                            <div class="archives">
+                                <h4>Archives</h4>
+                                <select name="" id="">
+                                    <option value="">Select Month</option>
+                                </select>
+                                <div class="contact-banner"
+                                    style="background-image: url(assets/images/contact-us-sidebar.jpg);">
+                                    <div class="btn-container text-center">
+                                        <div class="button">Contact Us</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tags">
+                                <h4>Tags</h4>
+                                <span>healthcare</span>
+                                <span> medical</span>
+                                <span>stress</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- standard-main ends -->
+
+    </main>
+
+    <!-- footer starts -->
+    <footer class="footer-2 no-select">
+        <div class="container">
+            <!-- footer-top starts -->
+            <div class="footer-top row">
+                <div class="healthcare col-12 col-lg-4">
+                    <div class="logo">
+                        <a href="#"><img src="assets/images/white-logo.svg" alt=""></a>
+                    </div>
+                    <p class="healthcare-text">With a background in the healthcare software industry and a desire to
+                        build great technology to
+                        help companies succeed in making healthcare better.</p>
+                </div>
+                <div class="about-us col-12 col-lg-2 mt-4 mt-lg-0">
+                    <h5 class="footer-top-col-title">Quick Links</h5>
+                    <ul>
+                        <li class="footer-pass">
+                            <i class="fas fa-arrow-right arrow-right"></i>
+                            <a href="">About Us</a>
+                        </li>
+                        <li class="footer-pass">
+                            <i class="fas fa-arrow-right arrow-right"></i>
+                            <a href="medical-department.html">Departments</a>
+                        </li>
+                        <li class="footer-pass">
+                            <i class="fas fa-arrow-right arrow-right"></i>
+                            <a href="find-doctor.html">Find A Doctor</a>
+                        </li>
+                        <li class="footer-pass">
+                            <i class="fas fa-arrow-right arrow-right"></i>
+                            <a href="faq.html">FAQ</a>
+                        </li>
+                        <li class="footer-pass">
+                            <i class="fas fa-arrow-right arrow-right"></i>
+                            <a href="schedule.html">Timetable</a>
+                        </li>
+                        <li class="footer-pass">
+                            <i class="fas fa-arrow-right arrow-right"></i>
+                            <a href="">News</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact col-12 col-lg-3 mt-4 mt-lg-0">
+                    <h5 class="footer-top-col-title">Contact</h5>
+                    <p class="contact-text">34th Avenue – New York, W2 3XE United State.<br>
+                        info@yourdomain.com<br>
+                        +(123) 1800-88-66</p>
+                    <div class="social-media d-inline-block">
+                        <a href="https://www.facebook.com/">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://twitter.com/">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.pinterest.com/">
+                            <i class="fab fa-pinterest-p"></i>
+                        </a>
+                        <a href="https://dribbble.com/">
+                            <i class="fab fa-dribbble"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="instagram col-12 col-lg-3 mt-4 mt-lg-0">
+                    <h5 class="footer-top-col-title">Instagram</h5>
+                    <div class="container">
+                        <div class="row instagram-contents">
+                            <div class="col-4">
+                                <div class="instagram-content">
+                                    <img src="assets/images/instagram-1.jpg" alt="">
+                                    <div class="overlay d-flex align-items-center justify-content-center"><i
+                                            class="fab fa-instagram insta-icon"></i></div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="instagram-content">
+                                    <img src="assets/images/instagram-2.jpg" alt="">
+                                    <div class="overlay d-flex align-items-center justify-content-center"><i
+                                            class="fab fa-instagram insta-icon"></i></div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="instagram-content">
+                                    <img src="assets/images/instagram-3.jpg" alt="">
+                                    <div class="overlay d-flex align-items-center justify-content-center"><i
+                                            class="fab fa-instagram insta-icon"></i></div>
+
+                                </div>
+                            </div>
+                            <div class="col-4 pt-3  pt-md-5 pt-lg-2">
+                                <div class="instagram-content">
+                                    <img src="assets/images/instagram-4.jpg" alt="">
+                                    <div class="overlay d-flex align-items-center justify-content-center"><i
+                                            class="fab fa-instagram insta-icon"></i></div>
+
+                                </div>
+                            </div>
+                            <div class="col-4 pt-3 pt-md-5 pt-lg-2">
+                                <div class="instagram-content">
+                                    <img src="assets/images/instagram-5.jpg" alt="">
+                                    <div class="overlay d-flex align-items-center justify-content-center"><i
+                                            class="fab fa-instagram insta-icon"></i></div>
+                                </div>
+                            </div>
+                            <div class="col-4 pt-3 pt-md-5 pt-lg-2">
+                                <div class="instagram-content">
+                                    <img src="assets/images/instagram-6.jpg" alt="">
+                                    <div class="overlay d-flex align-items-center justify-content-center"><i
+                                            class="fab fa-instagram insta-icon"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer-top ends -->
+
+        <!-- footer-bottom starts -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <span class="col-12 col-lg-6 mt-3 mt-lg-0">© 2019 Spyropress. All Rights Reserved</span>
+                    <div class="col-12 col-lg-6 mt-3 mt-lg-0 text-lg-right"><span>Term & Conditions</span><span
+                            class="policy">Privacy Policy</span></div>
+                </div>
+            </div>
+        </div>
+        <!-- footer-bottom ends -->
+    </footer>
+    <!-- footer ends -->
+
+
+
+    <!-- scroll-top button starts -->
+    <div class="st-btn">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+    <!-- scroll-top button ends -->
+
+
+
+
+
+    <!--scripts start-->
+    <!--Animations-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true
+        });
+    </script>
+    <!--jquery-->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- local storage -->
+    <script src="js/jquery.shoppingcart.js"></script>
+    <!--Slider Slick Js-->
+    <script type="text/javascript" src="assets/slick/slick.min.js"></script>
+    <!--bootstrap-->
+    <script src="assets/bootstrap/bootstrap.min.js"></script>
+    <!--javascript-->
+    <script src="js/script.js"></script>
+    <!--scripts end-->
+</body>
+
+</html>
